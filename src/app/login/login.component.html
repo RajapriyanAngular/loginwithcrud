@@ -1,0 +1,39 @@
+<div class="main">
+    
+    <br>
+    <h3 style="text-align:center;">Login Form</h3>
+    <br>
+    <div class="container col-md-6">
+        <div class="row">
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example1">Email address</label>
+                  <input formControlName="email" type="email" name="email"  class="form-control" placeholder="Ex: abc@gmail.com" required/>           
+                </div> 
+
+              
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example2">Password</label>
+                  <input formControlName="password" type="password"  class="form-control" placeholder="Enter Password" />
+                </div>
+              
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <!-- Simple link -->
+                   <a routerLink="/signup">New User?, Click to SignUp</a>
+                  </div>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" class=" button">Sign in</button>
+              
+         
+               
+              </form>
+        </div>
+     </div>
+
+</div>

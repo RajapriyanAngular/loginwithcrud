@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "firstName": "Askok",
+      "lastName": "Kumar",
+      "mobile": 123456788,
+      "email": "ak123@gmail.com",
+      "password": "any",
+      "id": 1
+    },
+    {
+      "firstName": "Umran",
+      "lastName": "Malik",
+      "mobile": 123456789,
+      "email": "umran123@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "firstName": "fswr",
+      "lastName": "asdf",
+      "mobile": 123456,
+      "email": "email@gmail.com",
+      "password": "000",
+      "id": 3
+    },
+    {
+      "firstName": "Boopathi",
+      "lastName": "G",
+      "mobile": 123456,
+      "email": "boopathi",
+      "password": "000",
+      "id": 4
+    },
+    {
+      "firstName": "Boopathi",
+      "lastName": "G",
+      "mobile": 123456,
+      "email": "boopathi@gmail.com",
+      "password": "000",
+      "id": 5
+    },
+    {
+      "firstName": "abc",
+      "lastName": "ddd",
+      "mobile": 123555,
+      "email": "abcd@gmail.com",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "KL",
+      "lastName": "Rahul",
+      "email": "kl01@gmail.com",
+      "dob": "1999-06-17T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Post Graduate",
+      "companyName": "IN",
+      "experience": 4,
+      "package": 12,
+      "id": 1
+    },
+    {
+      "firstName": "MS",
+      "lastName": "Dhoni",
+      "email": "Msd07@gmail.com",
+      "dob": "1990-10-10T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Intermediate",
+      "companyName": "IND",
+      "experience": 9,
+      "package": 256,
+      "id": 2
+    },
+    {
+      "firstName": "Virat",
+      "lastName": "Kohli",
+      "email": "vk18@gmail.com",
+      "dob": "1990-07-16T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Graduate",
+      "companyName": "ITG",
+      "experience": 3,
+      "package": 258,
+      "id": 3
+    },
+    {
+      "firstName": "KS ",
+      "lastName": "Bharat",
+      "email": "ksb15@gmail.com",
+      "dob": "1997-06-09T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Intermediate",
+      "companyName": "IND",
+      "experience": 1,
+      "package": 12,
+      "id": 4
+    },
+    {
+      "firstName": "Shubman ",
+      "lastName": "Gill",
+      "email": "saragill@gmail.com",
+      "dob": "1995-06-14T18:30:00.000Z",
+      "gender": "",
+      "education": "Graduate",
+      "companyName": "IND",
+      "experience": 4,
+      "package": 42,
+      "id": 5
+    },
+    {
+      "firstName": "Ishan ",
+      "lastName": "Kishan",
+      "email": "isk@gmail.com",
+      "dob": "1996-02-19T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Graduate",
+      "companyName": "IND",
+      "experience": 3,
+      "package": 42,
+      "id": 6
+    },
+    {
+      "firstName": "Umesh ",
+      "lastName": "Yadav",
+      "email": "umesh@gmail.com",
+      "dob": "1989-06-21T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Graduate",
+      "companyName": "INR1",
+      "experience": 3,
+      "package": 4,
+      "id": 7
+    }
+  ]
+}

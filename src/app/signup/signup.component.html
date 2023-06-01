@@ -1,0 +1,59 @@
+
+<div class="main">
+    
+    <br>
+    <h3 style="text-align:center;">Signup Form</h3>
+    <br>
+    <div class="container col-md-6">
+        <div class="row">
+            <form [formGroup]="signupForm" (ngSubmit)="SignUp()">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1">First name</label>
+                        <input formControlName="firstName" type="text" id="form3Example1" class="form-control" placeholder="Ex: Ajith" />
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                       <label class="form-label" for="form3Example2">Last name</label>
+                        <input formControlName="lastName" type="text" id="form3Example2" class="form-control"  placeholder="Ex: Kumar"/>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Number input-->
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example1">Mobile Number</label>
+                  <input formControlName="mobile" type="number" id="form2Example1" class="form-control" placeholder="Enter Your Number"/>
+                </div>
+               
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example1">Email address</label>
+                  <input formControlName="email" type="email" id="form2Example1" class="form-control" placeholder="Enter Your Mail ID"/>
+                </div>
+              
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example2">Password</label>
+                  <input formControlName="password" type="password" id="form2Example2" class="form-control" placeholder="Enter Password" />
+                  
+                </div>
+              
+                <a routerLink="/login">Already a user? Login now</a>   
+      
+                <!-- Submit button -->
+                <button type="submit" class=" button mb-2">Sign up</button>
+                
+              
+
+          </form>
+        </div>
+     </div>
+
+</div>
